@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>modal</title>
+  <link rel="stylesheet" href="common/default.css">
+  <link rel="stylesheet" href="scss/modal.css">
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+</head>
+
+<body>
+
+<!-- madal flatt form start -->
+<!-- make use button and class="modalBt" and button data-name="" == modal data-name=="" -->
+  <!-- Trigger/Open The Modal -->
+  <button id="myBtn" class="modalBt" data-name="info">Open Modal</button>
+  <!-- The Modal / background-->
+  <div id="myModal" class="modal" data-name="info">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal__close">X</span>
+        Information
+      </div>
+      <div class="modal-body">
+        <p>TEST1</p>
+        I'm Information
+      </div>
+      <!-- <div class="modal-footer"></div> -->
+    </div>
+  </div>
+  <!-- madal flatt form end -->
+
+
+  <!-- mordal -->
+  <button id="siteBtn" class="modalBt" data-name="site">site Modal</button>
+  <!-- The Modal / background-->
+  <div id="siteModal" class="modal" data-name="site">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="modal__close">X</span>
+          Website
+        </div>
+        <div class="modal-body">
+          TEST2
+        </div>
+        <!-- <div class="modal-footer"></div> -->
+      </div>
+    </div>
+
+    <script src="es6/modal.js"></script>
+</body>
+
+</html>
