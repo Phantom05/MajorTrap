@@ -1,0 +1,26 @@
+{
+  "name": "majortrap",
+  "version": "1.0.0",
+  "description": "majortrap lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phantom05/MajorTrap.git"
+  },
+  "keywords": [
+    "lib"
+  ],
+  "author": "phantom05",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phantom05/MajorTrap/issues"
+  },
+  "homepage": "https://github.com/Phantom05/MajorTrap#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
